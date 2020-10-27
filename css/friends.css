@@ -1,0 +1,7 @@
+.frineds__display {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
