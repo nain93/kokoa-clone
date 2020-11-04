@@ -3,7 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats-kakaotalk</title>
+    <title>settings-kakaotalk</title>
     <link rel="stylesheet" href="css/style.css">
    
  </head>
@@ -23,39 +23,48 @@
         </div>
     </div>
     
-    <header class="screen__header">
-        <h1 class="screen_title">Chats</h1>
-        <div class="screen__icons">
+    <header class="setting__header">
+        <a href="list.html">
+        <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+        <h1 class="screen_title">Settings</h1>
+        <div class="setting__icons">
             <span><i class="fas fa-search fa-lg"></i></span> 
-            <span><i class="fas fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="setting.html"<i class="fas fa-cog fa-lg"></i></a></span>
         </div>
-        
     </header>
-        <main class="frineds-screen">
+    <main class="frineds-screen">
+        <div class="setting__icons">
+
+            <div class="setting__icons__2">
+            <div class="setting__icons__bottom">
+            <i class="fas fa-bullhorn"></i>
+            <span class="setting__icons__wrap">Notices</span>
+            </div>
+            </div>
+
+            <div class="setting__icons__2">
+            <div class="setting__icons__bottom">
+            <i class="fas fa-flask"></i>
+            <span class="setting__icons__wrap">Kakao Lab</span>
+            </div>
+            </div>
             
-                    <a href="chat_room.html" class="Chats__channel__profile">
-                       <div class="Chats__divdiv">
-                        <img src="img/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png"
-                        class="friends__image--xl"/>
-                    <div class="chats__bottom_divdiv">
-                        <h4 class="friends__channel__text">KakaoTalk</h4>
-                        <h6 class="Chats_subtext">Please check My kakao Account Info</h6>
-                    </div>
-                       </div>
-                       
- 
-                        <div class="chats_divdiv2">
-                           
-                            <span class="chats_channel_channel">21:22</span>
+           
+            <div class="setting__icons__2">
+            <div class="setting__icons__bottom">
+            <i class="fas fa-info-circle"></i>
+            <span class="setting__icons__wrap">Version</span>
+            </div>
+            <span class="setting__latest__version">Latest Version</span>
+            </div>
 
-                            <div>1</div>
 
-                        </div>
-                    </a>
-                </div>
-        </main>
+            </div>
+
+           
+      
+    </main>
+        
 
         
     
@@ -66,8 +75,8 @@
                 <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a> 
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="chat.html"><i class="fas fa-comment fa-2x"></i>
-                    <span class="badge">1</span></a>
+                <a class="nav__link" href="chat.html"><i class="far fa-comment fa-2x"></i>
+                    </a>   
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="search.html"><i class="fas fa-search fa-2x"></i></a>

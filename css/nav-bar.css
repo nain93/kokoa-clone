@@ -10,6 +10,7 @@
 .nav__list {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .nav__link {
   color: #2b2d35;

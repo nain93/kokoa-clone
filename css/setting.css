@@ -1,0 +1,32 @@
+.setting__icons {
+  display: flex;
+  flex-direction: column;
+}
+.setting__latest__version {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.setting__icons__2 {
+  font-size: 20px;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.setting__header {
+  padding: 40px 12px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setting__header a {
+  margin-right: auto;
+}
+.setting__header div {
+  margin-left: auto;
+}
+.setting__icons__2 span {
+  margin-left: 10px;
+}
