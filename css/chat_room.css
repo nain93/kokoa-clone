@@ -20,13 +20,20 @@
   display: flex;
 
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
   background-color: #abc0d1;
   top: 35px;
 }
+.chatroom__header a {
+  margin-right: auto;
+}
+.chatroom__header div {
+  margin-left: 65px;
+}
+
 @keyframes chatRoom {
   from {
     transform: translateX(60px);
