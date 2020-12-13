@@ -27,13 +27,6 @@
   background-color: #abc0d1;
   top: 35px;
 }
-.chatroom__header a {
-  margin-right: auto;
-}
-.chatroom__header div {
-  margin-left: 65px;
-}
-
 @keyframes chatRoom {
   from {
     transform: translateX(60px);
