@@ -48,8 +48,8 @@
 .Chatroom__divdiv {
   display: flex;
   align-items: center;
-  animation: chatRoom2 0.3s linear;
-  animation-delay: 0.3s;
+  animation: chatRoom2 0.3s linear backwards;
+  animation-delay: 0.6s;
 }
 .chatroom__text {
   display: flex;
@@ -109,8 +109,8 @@
 }
 .chatroom__own {
   justify-content: flex-end;
-  animation: chatRoom 0.3s linear;
-  animation-delay: 0.6s;
+  animation: chatRoom 0.3s linear backwards;
+  animation-delay: 0.9s;
 }
 .chatroom__own .chatroom__text span {
   background-color: #f9e000;
