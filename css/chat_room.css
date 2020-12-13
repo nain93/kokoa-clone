@@ -46,10 +46,9 @@
 }
 
 .Chatroom__divdiv {
-  opacity: 0;
   display: flex;
   align-items: center;
-  animation: chatRoom2 0.3s linear forwards;
+  animation: chatRoom2 0.3s linear;
   animation-delay: 0.3s;
 }
 .chatroom__text {
@@ -109,9 +108,8 @@
   width: 100%;
 }
 .chatroom__own {
-  opacity: 0;
   justify-content: flex-end;
-  animation: chatRoom 0.3s linear forwards;
+  animation: chatRoom 0.3s linear;
   animation-delay: 0.6s;
 }
 .chatroom__own .chatroom__text span {
