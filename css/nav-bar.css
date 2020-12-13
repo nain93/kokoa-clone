@@ -15,3 +15,27 @@
 .nav__link {
   color: #2b2d35;
 }
+@keyframes apperBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__list li {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: apperBtnAnimation 0.2s ease-in-out forwards;
+}
+.nav__list li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav__list li:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nav__list li:last-child {
+  animation-delay: 0.8s;
+}

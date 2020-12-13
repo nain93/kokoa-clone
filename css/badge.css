@@ -1,3 +1,14 @@
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .badge {
   width: 21px;
   height: 21px;
@@ -9,6 +20,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 105px;
   bottom: 15px;
+  margin-left: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
